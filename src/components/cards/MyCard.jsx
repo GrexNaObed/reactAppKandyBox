@@ -1,6 +1,7 @@
 import React from 'react'
 
-function MyCard({body}) {
+
+function  MyCard({body}) {
     return (
         <li className="items__inner-item">
             <img src={ body.img } alt="" className="items__inner-img" />
