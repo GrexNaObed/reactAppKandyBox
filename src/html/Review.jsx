@@ -21,9 +21,11 @@ function Review() {
         centerMode: true,
 
         centerPadding: '20%',
-        arrows: false
+        arrows: false,
+        pauseOnFocus: false,
+        pauseOnHover: false
     }
-    
+
     return (
         <section className="reviews">
             <h1 className="reviews__title">Почитайте отзывы довольных клиентов</h1>
