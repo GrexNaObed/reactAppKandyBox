@@ -1,15 +1,19 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+import MyButton from "../UI/Buttons/MyButton";
 
+function MyCard({ title, sybTitle, price, imgPath }) {
 
-function  MyCard({body}) {
     return (
         <li className="items__inner-item">
-            <img src={ body.img } alt="" className="items__inner-img" />
+            <div className="items__item-photo">
+                <img src={ imgPath } alt="" className="items__inner-img" />
+            </div>
             <div className="items__item-wrapper">
-                <h2 className="items__item-title">{body.name}</h2>
-                <p className="items__item-text">{body.title}</p>
-                <span className="items__item-pice">{body.price}</span>
-                {body.btn}
+                <h2 className="items__item-title">{ title }</h2>
+                <p className="items__item-text">{ sybTitle }</p>
+                <span className="items__item-pice">{ price }₽/шт.</span>
+                <Link to='/buy'><MyButton body={ { className: 'items__item-btn', classNameSecond: '', text: 'Заказать' } } /></Link>
             </div>
         </li>
     )

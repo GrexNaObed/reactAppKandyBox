@@ -21,12 +21,17 @@
         &-img{
             width: 100%;
             display: block;
+            min-height: 245px;
 
         }
    
     }
        
     &__item{
+        &-photo{
+            max-height: 245px;
+            height: 100%;
+        }
         &-wrapper{
             padding: 50px 0 50px 45px;
         }
