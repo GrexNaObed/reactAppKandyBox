@@ -1,6 +1,7 @@
 import React from 'react'
 import HeaderTop from '../../html/HeaderTop'
-import Products from '../../html/Products'
+
+import { item1 } from "../../html/importImg";
 
 function Product() {
     return (
@@ -11,10 +12,10 @@ function Product() {
                     <div className="product__page-inner">
                         <div className="product__page-left">
                             <div className="product__page-photo">
-                                <img src="" alt="" className="product__page-img" />
+                                <img src={item1} alt="" className="product__page-img" />
                             </div>
                             <div className="product__page-info">
-                                <h2 className="product__page-title">Креsssмовый замок</h2>
+                                <h2 className="product__page-title">Кремовый замок</h2>
                                 <span className="product__page-text">Воздушный крем, темная основа и ягода малины</span>
                                 <span className="product__page-price">150 ₽/шт. </span>
                             </div>
