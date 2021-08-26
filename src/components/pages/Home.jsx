@@ -1,17 +1,13 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { Header, Products, Buy, Master, Review, Sale, Footer } from '../pages/index'
-function Home() {
-    const [keks, setkeks] = useState([])
 
-    useEffect(() => {
-        fetch('http://localhost:3000/db.json')
-            .then(resp => resp.json())
-            .then(body => setkeks(body.keks))
-    }, [])
+
+function Home({states}) {
+
     return (
         <div>
             <Header />
-            <Products state={keks} />
+            <Products state={states} />
             <Buy />
             <Master />
             <Review />

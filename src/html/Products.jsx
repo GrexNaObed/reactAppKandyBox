@@ -1,11 +1,5 @@
 import React from 'react'
-// eslint-disable-next-line
-import { Link } from 'react-router-dom'
 import MyCard from '../components/cards/MyCard'
-// eslint-disable-next-line
-import MyButton from '../components/UI/Buttons/MyButton'
-// eslint-disable-next-line
-import { item1, item2, item3, item4, item5, item6, item7, item8, item9 } from '../html/importImg'
 
 function Products({ state }) {
     return (
