@@ -7,7 +7,6 @@ function Catalag() {
     return (
         <div>
             <HeaderTop/>
-            <Products/>
             <Sale/>
         </div>
     )

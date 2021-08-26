@@ -6,7 +6,6 @@ import ProductP from "./components/pages/ProductP";
 import Home from "./components/pages/Home";
 import Catalag from "./components/pages/Catalag";
 import MapStreet from "./components/pages/MapStreet";
-import Products from './html/Products';
 
 
 
