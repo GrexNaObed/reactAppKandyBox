@@ -19,12 +19,15 @@
             width: 100%;
             max-width: 380px;
             margin-bottom: 50px;
+            // min-height: 370px;
         }
 
         &-img {
             border-radius: 15px;
             display: block;
             width: 100%;
+            // min-height: 370px;
+
 
         }
 
@@ -35,25 +38,29 @@
             margin-bottom: 50px;
 
         }
-        &-title{
+
+        &-title {
             display: block;
             margin-bottom: 20px;
             width: 100%;
             max-width: 251px;
             color: #434B53;
         }
-        &-text{
+
+        &-text {
             display: block;
             width: 240px;
             line-height: 24px;
             margin-bottom: 20px;
         }
-        &-price{
+
+        &-price {
             font-weight: 700;
             font-size: 24px;
             color: #434B53;
         }
-        &-btn{
+
+        &-btn {
             width: 100%;
             color: #2E363E;
             text-transform: uppercase;
@@ -64,12 +71,62 @@
             border-radius: 15px;
             text-align: center;
         }
+
+        &-right {
+            min-height: 795px;
+        }
+
     }
 
     &__container {
         width: $containerW;
         padding: $containerPD;
         margin: $containerMargin;
-        max-width: 1210px;
+        max-width: 1700px;
+    }
+
+    &__right {
+
+        &-text {
+       
+            display: block;
+            box-shadow: -10px -10px 10px rgba(167, 167, 167, 0.25);
+            border-radius: 15px;
+            background-color: #fff;
+            padding-top: 35px;
+            padding-bottom: 90px;
+            max-height: 370px;
+            padding-left: 73px;
+            padding-right: 73px;
+            margin-bottom: 50px;
+        }
+
+        &-title {
+            text-align: center;
+            display: block;
+            margin-bottom: 48px;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 36px;
+        }
+        &-sub{
+            font-size: 18px;
+            line-height: 27px;
+            width: 100%;
+        }
+        &-photoes{
+            display: flex;
+        }
+        &-img{
+            display: block;
+            width: 100%;
+            max-width: 380px;
+            min-height: 280px;
+            margin-right: 37px;
+            border-radius: 15px;
+            &:last-child{
+                margin-right: 0;
+            }
+        }
     }
 }

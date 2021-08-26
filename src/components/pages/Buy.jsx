@@ -12,7 +12,7 @@ function Product() {
                     <div className="product__page-inner">
                         <div className="product__page-left">
                             <div className="product__page-photo">
-                                <img src={item1} alt="" className="product__page-img" />
+                                <img src={ item1 } alt="" className="product__page-img" />
                             </div>
                             <div className="product__page-info">
                                 <h2 className="product__page-title">Кремовый замок</h2>
@@ -22,9 +22,9 @@ function Product() {
                             <button className='product__page-btn'>Заказать</button>
                         </div>
                         <div className="product__page-right">
-                            <div className="product__rigth-text">
+                            <div className="product__right-text">
                                 <h2 className="product__right-title">Кремовый замок</h2>
-                                <p className="product__right-text">Кремовый замок is simply dummy text of the printing and typesetting industry.
+                                <p className="product__right-sub"><strong>Кремовый замок</strong> is simply dummy text of the printing and typesetting industry.
                                     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
                                     a galley of type and scrambled it to make a type specimen book. It has survived not
                                     only five centuries, but also the leap into electronic typesetting, remaining essentially u
@@ -32,9 +32,9 @@ function Product() {
                                     , and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
                             </div>
                             <div className="product__right-photoes">
-                                <img src="" alt="" className="product__rigth-img" />
-                                <img src="" alt="" className="product__rigth-img" />
-                                <img src="" alt="" className="product__rigth-img" />
+                                <img src={ item1 } alt="" className="product__right-img" />
+                                <img src={ item1 } alt="" className="product__right-img" />
+                                <img src={ item1 } alt="" className="product__right-img" />
                             </div>
                         </div>
                     </div>
