@@ -1,4 +1,5 @@
 export {default as Header } from "../../html/Header";
+export {default as HeaderTop } from "../../html/HeaderTop";
 export {default as Products } from "../../html/Products";
 export {default as Buy } from "../../html/Buy";
 export {default as Master } from "../../html/Master";

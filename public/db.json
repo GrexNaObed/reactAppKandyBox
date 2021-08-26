@@ -3,50 +3,85 @@
             "id": 0,
             "title": "Кремовый замок",
             "sybTitle": "Нежный крем любого цвета на выбор, вафельная основа",
-            "text": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "text": " Этот простой рецепт приготовления кексов в формочках в духовке должен быть в кулинарной книге каждой хозяйки. Ведь он может стать палочкой-выручалочкой, если гости на пороге, дети хотят сладкого, можно взять с собой в дорогу и так далее. Готовятся кексы из самых простых ингредиентов, без добавления кефира и сметаны, а получаются нежными, мягкими,невероятно вкусными. С подачей можно экспериментировать - можно испеченные и остывшие кексы сразу подать к столу, а можно в уже готовых кексах сделать отверстие и вложить джем в качестве начинки, тогда выпечка станет ещё более интересной. Из указанного количества ингредиентов у меня получилось 16 кексов.куриные яйца - 4 шт.;сахар - 150 г;сливочное масло - 120 г;растительное масло - 100 мл;разрыхлитель - 10 г;мука - 2 стакана;ванильный сахар - 10 г;джем (можно взять густое варенье или вареную сгущенку) - 200 г (по желанию).Стакан емкостью 200 мл.            ",
             "price": "150",
-            "imgPath": "https://www.photorecept.ru/wp-content/uploads/2014/04/keks-s-kusochkami-shokolada-i-oreshkami-keshyu-img-e1586793486951.jpg"
+            "imgPath": "https://www.photorecept.ru/wp-content/uploads/2014/04/keks-s-kusochkami-shokolada-i-oreshkami-keshyu-img-e1586793486951.jpg",
+            "imgCards": [ "https://rutxt.ru/files/12033/original/71e700cad6.JPG","https://rutxt.ru/files/12033/original/f2d3c7289a.JPG","https://rutxt.ru/files/12033/original/a3f35125ba.JPG"]
         },
         {
             "id": 1,
             "title": "Малиновый рай",
             "sybTitle": "Нежный крем любого цвета на выбор, вафельная основа",
-            "text": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "text": " Спешу поделиться замечательным рецептом приготовления шоколадных кексов в формочках. Выпечка получается очень вкусной и ароматной. Такие шоколадные кексы можно готовить и без добавок, а можно испечь с орешками, изюмом или любыми сухофруктами по вкусу. Я готовила с орехами. Нежная текстура теста с орешками, очень понравится сладкоежкам.",
             "price": "250",
-            "imgPath": "https://img.fresh.ru/unsafe/560x/https%3A%2F%2Fimg.fresh.ru%2Ffresh-recipe-20191224%2Fba50de711abde32732e5cc8a4c0606f9f94f9301.jpg"
+            "imgPath": "https://img.fresh.ru/unsafe/560x/https%3A%2F%2Fimg.fresh.ru%2Ffresh-recipe-20191224%2Fba50de711abde32732e5cc8a4c0606f9f94f9301.jpg",
+            "imgCards": [ "https://rutxt.ru/files/12033/original/71e700cad6.JPG","https://rutxt.ru/files/12033/original/f2d3c7289a.JPG","https://rutxt.ru/files/12033/original/a3f35125ba.JPG"]
         },
         {
             "id": 2,
             "title": "Фейерверк",
             "sybTitle": "Разноцветные крем, с бисквитной основой",
-            "text": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "text": "Я  люблю использовать силиконовые формы и формочки, так как выпечка в них никогда не подгорает, они быстро моются и долго сохраняют все свои свойства. Сегодня я испекла маленькие кексы в силиконовых формочках. В качестве добавок в тесто я использовала замороженные ягоды красной смородины и немного молочного шоколада, которые сделали эти кексы просто восхитительными.Для приготовления кексов в силиконовых формочках понадобится:мука - 125 г;сахарная пудра - 100 г;сливочное масло - 100 г;яйцо - 1 шт.;вода комнатной температуры - 1/4 стакана;йогурт - 1 ст. л.;разрыхлитель для теста - 1 ч. л.;соль - 1/4 ч. л.;ванильный экстракт - 1/2 ч. л. (можно заменить 1/2 ч. л. ванильного сахара);ягоды - 0,5 стакана;молочный шоколад - 0,5 стакана.",
             "price": "200",
-            "imgPath": "https://img.fresh.ru/unsafe/560x/https%3A%2F%2Fimg.fresh.ru%2Ffresh-recipe-20191025%2F4eca6df77111209f2190613d41c1ceea6f80d5d0.jpg"
+            "imgPath": "https://img.fresh.ru/unsafe/560x/https%3A%2F%2Fimg.fresh.ru%2Ffresh-recipe-20191025%2F4eca6df77111209f2190613d41c1ceea6f80d5d0.jpg",
+            "imgCards": [ "https://rutxt.ru/files/3305/original/63b4850ce2.jpg","https://rutxt.ru/files/3305/original/db2c8139a2.jpg","https://rutxt.ru/files/3305/original/83b579f3ea.jpg"]
         },
         {
             "id": 3,
             "title": "Шоколадный мир",
             "sybTitle": "Ореховая стружка, нежный крем и шоколадная основа",
-            "text": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "text": " В сезон свежих персиков и нектаринов предлагаю приготовить очень вкусные кексы с этими прекрасными фруктами. Выпечка получается не приторной, нежной. Обязательно порадуйте близких аппетитными кексами с персиками.Для приготовления кексов с персиками вам потребуется:100 г сахара;2 яйца;0,5 ч. л. разрыхлителя;50 г сливочного масла;щепотка соли;150 г муки;3 персика или нектарина (или пополам, как у меня).",
             "price": "320",
-            "imgPath": "https://img.fresh.ru/unsafe/560x/https%3A%2F%2Fimg.fresh.ru%2Ffresh-recipe-20210217%2F2211-a54985c53a46004ae75c2e9c4b723f3154777735.jpg" 
+            "imgPath": "https://img.fresh.ru/unsafe/560x/https%3A%2F%2Fimg.fresh.ru%2Ffresh-recipe-20210217%2F2211-a54985c53a46004ae75c2e9c4b723f3154777735.jpg",
+            "imgCards": [ "https://rutxt.ru/files/8336/original/0beb02b908.JPG","https://rutxt.ru/files/8336/original/44027046bb.JPG","https://rutxt.ru/files/8336/original/58742756c9.JPG"]
         },
         {
             "id": 4,
             "title": "Слезы дракона",
             "sybTitle": "Нежный крем любого цвета на выбор, вафельная основа",
-            "text": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "text": " Шоколадные кексы, приготовленные без добавления молока, масла и яиц, получаются невероятно нежными, пористыми и очень вкусными. Это блюдо является одним из вариантов сумасшедшего шоколадного пирога (Crazy Cake), изобретённого в Америке. Приготовив единожды, Вам ещё ни раз захочется отведать это лакомство.Для приготовления шоколадных кексов нам понадобится:3 стакана муки;2 стакана воды комнатной температуры; 1,5-2 стакана сахара;6 ст. л. какао;3-4 ст. л. растительного масла;1,5-2 ст. л. уксуса; 2 ч. л. соды; 1 ч. л. соли;1-2 ч. л. ванильного сахара.",
             "price": "320",
-            "imgPath": "https://img1.russianfood.com/dycontent/images_upl/480/big_479845.jpg" 
+            "imgPath": "https://img1.russianfood.com/dycontent/images_upl/480/big_479845.jpg",
+            "imgCards": [ "https://rutxt.ru/files/1197/original/izobrazhenie_178.jpg","https://rutxt.ru/files/1197/original/izobrazhenie_179.jpg","https://rutxt.ru/files/1197/original/izobrazhenie_181.jpg"]
         },
         {
             "id": 5,
             "title": "Слезы Дня",
             "sybTitle": "Нежный крем любого цвета на выбор,посыпка",
-            "text": " is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+            "text": " Часто после приготовления домашнего творога остается много молочной сыворотки. И возникает вопрос, куда её деть. Существует множество рецептов блюд, которые готовятся с добавлением сыворотки, одним из них хочу сегодня поделиться. Кексы, замешанные на сыворотке, получаются вкусными, нежными, с пористой структурой. По желанию, в тесто можно добавить орехи, изюм, курагу, цукаты и т.д. Я готовила обычные классические кексы, получилось очень вкусно. Рекомендую попробовать!Для приготовления кексов на сыворотке потребуется:яйца - 2 шт.;сахар - 1 стакан;сыворотка - 1 стакан;растительное масло (без запаха) - 0,5 стакана;мука - 2,5 стакана;сода - 0,5 ч. л.Стакан объёмом 200 мл.",
             "price": "320",
-            "imgPath": "https://kamelena.ru/recipes/image/100/136/f136-keks-stolichnyj_w360.webp" 
+            "imgPath": "https://kamelena.ru/recipes/image/100/136/f136-keks-stolichnyj_w360.webp",
+            "imgCards": [ "https://rutxt.ru/files/13780/original/0c86ed19f6.jpg","https://rutxt.ru/files/13780/original/0f4eee5ea3.jpg","https://rutxt.ru/files/13780/original/6be23b14bb.jpg"]
+        },
+        {
+            "id": 6,
+            "title": "Кексы Любви ",
+            "sybTitle": "Имеет начинку и очень вкусный черный шоколад",
+            "text": " Маффины с малиной - замечательная и простая выпечка для чаепития в семейном кругу. Готовятся они на одном дыхании. Пока у нас ещё есть малина, я пеку такие маффины через день и съедаются они очень быстро. Испечь можно и с другими ягодами, тоже будет вкусно. В зависимости от величины формочек, может получиться 12-15 маффинов.Для приготовления маффинов с малиной нам понадобится:240 г пшеничной муки;1 ч. л. разрыхлителя;2 яйца;100 г сливочного масла;160 г сахара;1 г ванилина;125 мл молока;100 г свежей малины;щепотка соли;сахарная пудра для подачи.",
+            "price": "185",
+            "imgPath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5EmRludZvNylDndZ731Ip53Vvv5CsxYZFuw&usqp=CAU",
+            "imgCards": [ "https://rutxt.ru/files/10948/original/74ec361cb8.JPG","https://rutxt.ru/files/10948/original/cd83941333.JPG","https://rutxt.ru/files/10948/original/9e5f881db3.JPG"]
+        },
+        {
+            "id": 7,
+            "title": "Круглый кекс ",
+            "sybTitle": "Имеет начинку и очень вкусный черный шоколад",
+            "text": " Хотите выпить с утра чашечку бодрящего кофе и скушать вкусный, нежный, ароматный и шоколадный маффин? Тогда предлагаю незатейливый рецепт приготовления маффинов с какао. Выпечка получается неизменно великолепной. Для приготовления этих маффинов понадобится небольшое количество ингредиентов и немного свободного времени. Даже если вы не являетесь поклонником сладкой выпечки, я вас уверяю, что воздушные, нежные, безумно вкусные маффины не оставят вас равнодушными. Обязательно попробуйте!Для приготовления маффинов с какао понадобится:мука - 240 г;яйцо - 4 шт.;молоко - 50 мл;сахар - 140 г;сливочное масло - 50 г;какао - 6 ст. л.;ванилин - 2 г;разрыхлитель - 15 г",
+            "price": "745",
+            "imgPath": "https://img.povar.ru/uploads/0a/e8/f1/af/babushkin_keks-687730.JPG",
+            "imgCards": [ "https://rutxt.ru/files/12377/original/4a6e29b4fa.JPG","https://rutxt.ru/files/12377/original/4ff8fd4185.JPG","https://rutxt.ru/files/12377/original/48cfeece3d.JPG"]
+        },
+        {
+            "id": 8,
+            "title": "Медовый кекс ",
+            "sybTitle": "Имеет начинку и очень вкусный черный шоколад",
+            "text": "Два или три раза в неделю у меня стабильно творожная выпечка к завтраку. Коллекция рецептов большая, но есть полюбившиеся варианты. Вот один из удачных базовых рецептов - шоколадно-творожные кексы, а в качестве начинок возможны импровизации: фрукты, сухофрукты, цукаты, кусочки шоколада, орехи, арахис в шоколаде, арахис в йогурте и т.д. Надеюсь, что уже планируете приготовить...Для приготовления 24 шоколадно-творожных кексов понадобится:творог - 200 г;молоко - 150 мл;яйца - 2 штуки;мука - 1,5 стакана;разрыхлитель - 1 ч. ложка;сахар - 5-7 ст. ложек;щепотка соли;растительное масло без запаха - 3 ст. ложки;какао - 3 ст. ложки;чернослив - 12 штук;шоколад - 50 г.",
+            "price": "500",
+            "imgPath": "https://kulinarnia.ru/wp-content/uploads/2017/12/keks-medovyy.jpg",
+            "imgCards": [ "https://rutxt.ru/files/1934/original/1_tvorog_yayca_sahar....jpg","https://rutxt.ru/files/1934/original/4_testo.jpg","https://rutxt.ru/files/1934/original/5_chernosliv.jpg"]
         }
-        
+
+
+
     ]
 }

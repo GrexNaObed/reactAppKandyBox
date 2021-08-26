@@ -2,7 +2,7 @@ import React from 'react'
 import HeaderTop from '../../html/HeaderTop'
 
 
-function ProductP({ title, sybTitle, price, imgPath,text }) {
+function ProductP({ title, sybTitle, price, imgPath,text, imgCards }) {
     return (
         <div>
             <HeaderTop />
@@ -26,9 +26,9 @@ function ProductP({ title, sybTitle, price, imgPath,text }) {
                                 <p className="product__right-sub"><strong>{title}</strong> {text}</p>
                             </div>
                             <div className="product__right-photoes">
-                                <img src={ imgPath } alt="" className="product__right-img" />
-                                <img src={ imgPath } alt="" className="product__right-img" />
-                                <img src={ imgPath } alt="" className="product__right-img" />
+                                <img src={ imgCards[0] } alt="" className="product__right-img" />
+                                <img src={ imgCards[1] } alt="" className="product__right-img" />
+                                <img src={ imgCards[2] } alt="" className="product__right-img" />
                             </div>
                         </div>
                     </div>
