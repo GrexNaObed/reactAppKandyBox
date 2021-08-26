@@ -1,9 +1,8 @@
 import React from 'react'
 import HeaderTop from '../../html/HeaderTop'
 
-import { item1 } from "../../html/importImg";
 
-function Product() {
+function ProductP({ title, sybTitle, price, imgPath,text }) {
     return (
         <div>
             <HeaderTop />
@@ -12,29 +11,24 @@ function Product() {
                     <div className="product__page-inner">
                         <div className="product__page-left">
                             <div className="product__page-photo">
-                                <img src={ item1 } alt="" className="product__page-img" />
+                                <img src={ imgPath} alt="" className="product__page-img" />
                             </div>
                             <div className="product__page-info">
-                                <h2 className="product__page-title">Кремовый замок</h2>
-                                <span className="product__page-text">Воздушный крем, темная основа и ягода малины</span>
-                                <span className="product__page-price">150 ₽/шт. </span>
+                                <h2 className="product__page-title">{title}</h2>
+                                <span className="product__page-text">{sybTitle}</span>
+                                <span className="product__page-price">{price} ₽/шт. </span>
                             </div>
                             <button className='product__page-btn'>Заказать</button>
                         </div>
                         <div className="product__page-right">
                             <div className="product__right-text">
-                                <h2 className="product__right-title">Кремовый замок</h2>
-                                <p className="product__right-sub"><strong>Кремовый замок</strong> is simply dummy text of the printing and typesetting industry.
-                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
-                                    a galley of type and scrambled it to make a type specimen book. It has survived not
-                                    only five centuries, but also the leap into electronic typesetting, remaining essentially u
-                                    nchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages
-                                    , and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                                <h2 className="product__right-title">{title}</h2>
+                                <p className="product__right-sub"><strong>{title}</strong> {text}</p>
                             </div>
                             <div className="product__right-photoes">
-                                <img src={ item1 } alt="" className="product__right-img" />
-                                <img src={ item1 } alt="" className="product__right-img" />
-                                <img src={ item1 } alt="" className="product__right-img" />
+                                <img src={ imgPath } alt="" className="product__right-img" />
+                                <img src={ imgPath } alt="" className="product__right-img" />
+                                <img src={ imgPath } alt="" className="product__right-img" />
                             </div>
                         </div>
                     </div>
@@ -44,4 +38,4 @@ function Product() {
     )
 }
 
-export default Product
+export default ProductP

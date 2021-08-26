@@ -11,7 +11,7 @@ function Home() {
     return (
         <div>
             <Header />
-            <Products state={keks}/>
+            <Products state={keks} />
             <Buy />
             <Master />
             <Review />
