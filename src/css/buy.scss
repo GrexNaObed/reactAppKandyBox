@@ -1,0 +1,95 @@
+.buy {
+    position: relative;
+    min-height: 1352px;
+    &::before{
+        content: '';
+        background: url('../img/buyIMG.png') bottom left no-repeat;
+        width: 100%;
+        max-width: 1034px;
+        height: 100%;
+        display: block;
+        position: absolute;
+        bottom:  0;
+        left: 0;
+    }
+
+    &__wrapper {
+        position: relative;
+        min-height: inherit;
+        &::after {
+            content: '';
+            background: url('../img/buySmoke2.png') top left / cover no-repeat;
+            width: 100%;
+            height: 330px;
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        &::before {
+            content: '';
+            background: url('../img/buySmoke.png') bottom right / cover no-repeat;
+            width: 100%;
+            height: 330px;
+            display: block;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            z-index: 2;
+        }
+    }
+
+
+
+    &__inner {
+        display: flex;
+        padding-top: 409px;
+        flex-direction: row-reverse;
+
+        &-left {
+            position: relative;
+
+            // &::after {
+            //     content: '';
+            //     position: absolute;
+            //     left: 0;
+            //     bottom: 0;
+            //     display: block;
+            //     background: url('../img/buyIMG.png') bottom left / cover no-repeat;
+            //     width: 1090px;
+            //     height: 1034px;
+            // }
+
+            margin-right: 84px;
+        }
+
+    
+        &-button.btn {
+            width: 380px;
+        }
+
+        &-title {
+            font-weight: $fwM;
+            font-size: 48px;
+            line-height: 60px;
+            letter-spacing: -1px;
+            margin-bottom: 24px;
+            width: 485px;
+        }
+
+        &-text {
+            font-weight: $fwR;
+            font-size: 21px;
+            line-height: 30px;
+            width: 489px;
+            margin-bottom: 40px;
+        }
+    }
+
+    &__left-img {
+        width: 100%;
+        object-fit: fill;
+        display: block;
+    }
+}

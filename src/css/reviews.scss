@@ -1,0 +1,205 @@
+
+
+.reviews {
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+        content: '';
+        background: url('../img/buySmoke2.png') top left / cover no-repeat;
+        width: 100%;
+        height: 330px;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    &::before {
+        content: '';
+        background: url('../img/buySmoke.png') bottom right / cover no-repeat;
+        width: 100%;
+        height: 330px;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 2;
+    }
+
+    &__title {
+        margin: 0 auto;
+        padding-top: 252px;
+        padding-bottom: 80px;
+        display: block;
+        font-weight: $fwM;
+        font-size: 48px;
+        line-height: 60px;
+        letter-spacing: -1px;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+
+}
+
+.slider {
+
+
+    &__btns {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 308px;
+        margin-top: 70px;
+
+
+    }
+
+    &__btn-prev,
+    &__btn-next {
+        width: 66px;
+        height: 66px;
+        display: block;
+        background-color: #FED84C;
+        border-radius: 50%;
+        position: relative;
+        cursor: pointer;
+        margin-right: 24px;
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    &__btn-img {
+        margin: 0 auto;
+    }
+
+    &__item {
+   
+        display: block;
+        background-color: #E2EAF2;
+        color: $colorMT;
+        padding-top: 55px;
+        opacity: 0.1;
+        margin-right: 50px;
+        transition: all .2s ease;
+
+
+        &-inner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 55px;
+
+        }
+
+        &-left {
+            width: 364px;
+            margin-right: 42px;
+        }
+
+        &-qouts {
+            margin-bottom: 20px;
+            display: block;
+        }
+
+        &-title {
+            font-weight: $fwM;
+            font-size: 24px;
+            line-height: 34px;
+            margin-bottom: 19px;
+        }
+
+        &-text {
+            font-weight: $fwR;
+            font-weight: 12px;
+            line-height: 20px;
+            width: 340px;
+        }
+
+        &-link {
+            color: #4A94FF;
+            padding-bottom: 5px;
+            border-bottom: 1px dashed #4A94FF;
+            font-size: 14px;
+            line-height: 21px;
+            font-weight: $fwR;
+            margin-top: 24px;
+            display: inline-block;
+        }
+
+        &-right {
+            width: 300px;
+
+        }
+
+        &-photo {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        &-img {
+            width: 100%;
+            display: block;
+        }
+
+        &-nm {
+            font-weight: $fwM;
+            font-size: 16px;
+            line-height: 28px;
+            display: block;
+            margin-bottom: 6px;
+            text-align: center;
+            margin-top: 30px;
+            color: $colorMT;
+        }
+
+        &-city {
+            display: block;
+            text-align: center;
+            font-weight: $fwR;
+            font-size: 13px;
+            line-height: 21px;
+        }
+    }
+}
+
+.slick-track {
+    display: flex;
+    align-items: center;
+}
+
+.slick-list {
+    display: flex;
+    align-items: center;
+}
+
+.slick-active {
+    position: relative;
+   
+    .slider__item-inner{
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .slider__item{
+        display: block;
+        background-color: #ffffff;
+        color: $colorMT;
+        padding-top: 55px;
+        opacity: 1;
+        margin-right: 50px;
+        transition: all .3s ease;
+    }
+}
+
+// .slider__item .slick-active {
+//     .slider__item-title{
+//         font-size: 47px;
+//         line-height: 30px;
+//     }
+// }

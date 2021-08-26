@@ -1,0 +1,153 @@
+@import "vars.scss";
+
+.footer {
+    position: relative;
+    color: $colorMT;
+
+    &::before {
+        content: '';
+        background: url('../img/buySmoke2.png') bottom right / cover no-repeat;
+        width: 100%;
+        height: 330px;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 2;
+    }
+
+    &__inner {
+        display: flex;
+        justify-content: center;
+        padding-top: 300px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__item {
+        min-width: 1180px;
+        background-color: #fff;
+        // padding: 70px 99px;
+    }
+
+    &__title {
+        font-weight: $fwB;
+        font-size: 36px;
+        line-height: 47px;
+        text-align: center;
+        margin-bottom: 12px;
+        padding-top: 70px;
+    }
+
+    &__subtext {
+        font-weight: $fwR;
+        font-size: 21px;
+        line-height: 30px;
+        margin-bottom: 36px;
+        display: block;
+        text-align: center;
+    }
+
+    &__form {
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 24px;
+
+        &-tel {
+            min-width: 380px;
+            height: 80px;
+            border: none;
+            background-color: #F2F6FA;
+            margin-right: 20px;
+            position: relative;
+            outline: none;
+            padding-left: 21px;
+
+
+        }
+
+        &-politics {
+            display: block;
+            text-align: center;
+            font-weight: $fwR;
+            font-size: 11px;
+            line-height: 14px;
+            cursor: pointer;
+            margin-left: 7px;
+        }
+
+        &-check {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 70px;
+        }
+
+        &-checkbox {
+            width: 12px;
+            height: 12px;
+            display: block;
+            border-radius: 2px;
+            background: #fff;
+            border: 1px solid #000;
+            position: relative;
+            cursor: pointer;
+
+            &.active {
+                background: #4A94FF;
+                border: none;
+            }
+
+            &::before {
+                content: '';
+                display: block;
+                background: url('../img/check.svg') top left / cover no-repeat;
+                width: 6.5px;
+                height: 4.5px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        }
+
+
+    }
+}
+
+.breadbox {
+    width: 650px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+
+    &_f>a {
+        color: #7E868E;
+        font-weight: $fwR;
+        font-size: 12px;
+        line-height: 18px;
+        margin-right: 43px;
+    }
+
+    &_f {
+        margin-bottom: 22px;
+        display: inline-block;
+
+        &:last-child {
+            margin-bottom: 0;
+            color: #7E868E;
+            min-width: 478px;
+            text-align: center;
+            font-weight: $fwR;
+            font-size: 12px;
+            line-height: 18px;
+            display: block;
+        }
+
+        &:nth-child(3)>a {
+            margin-right: 0;
+        }
+    }
+
+}

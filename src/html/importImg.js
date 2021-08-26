@@ -1,0 +1,10 @@
+    export {default as item1} from'../img/item1.jpg'
+    export {default as item2} from'../img/item2.jpg'
+    export {default as item3} from'../img/item3.jpg'
+    export {default as item4} from'../img/item4.jpg'
+    export {default as item5} from'../img/item5.jpg'
+    export {default as item6} from'../img/item6.jpg'
+    export {default as item7} from'../img/item7.jpg'
+    export {default as item8} from'../img/item8.jpg'
+    export {default as item9} from'../img/item9.jpg'
+    

@@ -1,0 +1,58 @@
+.btn{
+    background-color: $btnC;
+    width: 277px;
+    height: 88px;
+    border-radius: 8px;
+    color: $colorMT;
+    font-weight: $fwM;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 30px 50px;
+    cursor: pointer;
+}
+.helpers{
+    background-color: #F2F6FA;
+    color: $colorMT;
+    font-weight: $fwR;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: -1px;
+    padding: 10px 18px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.title{
+    width: 100%;
+    max-width: 647px;
+    font-weight: $fwB;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: -1px;
+    margin-bottom: 25px;
+}
+
+// .active {
+//     background-color: #FFFFFF;
+//     // display: flex;
+//     // align-items: center;
+//     // justify-content: center;
+//     // position: relative;
+//     padding-top: 70px;
+//     padding-bottom: 70px;
+//     margin-bottom: 70px;
+//     margin-right: 50px;
+//     // width: 934px;
+//     // height: 486px;
+//     // opacity: 0.1;
+//     transition: all .2s ease;
+//     &-qouts{
+//         width: 40px;
+//         height: 40px;
+
+//         display: block;
+//         margin-bottom: 24px;
+//     }
+// }

@@ -1,0 +1,100 @@
+@import "vars.scss";
+.header{
+    background: url('../img/headerIMG.png') center center / cover no-repeat;
+    // min-height: 1294px;
+    width: 100%;
+    &__top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 37px;
+        padding-bottom: 37px;
+    }
+    &__logo{
+        font-weight: $fwM;
+        font-size: 21px;
+        line-height: 30px;
+    }
+    &__nav{
+        display: flex;
+        align-items: center;
+    }
+    &__top-address{
+        margin-right: 70px;
+        font-weight: $fwR;
+        font-size: 12px;
+        line-height: 18px;
+        padding-left: 23px;
+        position: relative;
+        &::before{
+            content: '';
+            background: url('../img/local.svg');
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: block;
+            width: 12px;
+            height: 17px;
+        }
+    }
+    &__top-phone{
+        font-weight: $fwB;
+        font-size: 20px;
+        padding-left: 32px;
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            background: url('../img/phone.svg');
+            width: 19px;
+            height: 19px;
+            display: block;
+        }
+        &>span{
+            font-weight: $fwR ;
+            font-size: 13px;
+            line-height: 19px;
+        }
+    }
+    &__screen{
+        width: 100%;
+        max-width: 647px;
+        margin-top: 200px;
+        padding-bottom: 465px;
+
+        // &-title{
+        //     // width: 100%;
+        //     // max-width: 647px;
+        //     // font-weight: $fwB;
+        //     // font-size: 48px;
+        //     // line-height: 60px;
+        //     // letter-spacing: -1px;
+        //     // margin-bottom: 25px;
+        // }
+        &-text{
+            font-weight: $fwR;
+            font-size: 24px;
+            line-height: 34px;
+            width: 545px;
+            margin-bottom: 40px;
+        }
+        &-btn{
+            display: flex;
+            align-items: center;
+            &>span{
+                font-weight: $fwR;
+                font-size: 15px;
+                line-height: 24px;
+            }
+            
+        }
+        &-button{
+            margin-right: 20px;
+            
+        }
+
+
+    }
+}
