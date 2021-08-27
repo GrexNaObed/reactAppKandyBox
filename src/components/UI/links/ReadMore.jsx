@@ -2,7 +2,9 @@ import React from 'react'
 
 function ReadMore({body}) {
     return (
-        <a className={body.className} href="/readmore">{body.text}</a>
+        <div className="wrapper__for-btn">
+            <a className={body.className} href="/readmore">{body.text}</a>
+        </div>
     )
 }
 
