@@ -9,6 +9,8 @@ import prev from '../img/prev.svg'
 import next from '../img/next.svg'
 import MyNextArrow from '../components/UI/Buttons/MyNextArrow'
 
+import $ from 'jquery'
+
 function Review() {
     var settingsSlider = {}
     if (window.outerWidth >= 1025) {
@@ -24,9 +26,11 @@ function Review() {
             centerPadding: '20%',
             arrows: false,
             pauseOnFocus: false,
-            pauseOnHover: false
+            pauseOnHover: false,
+            prevArrow: <MyPrevArrow body={ {img: prev}}/>,
+            nextArrow: $('.next')
         }
-    }else{
+    } else {
         settingsSlider = {
             infinite: true,
             autoplay: true,
@@ -40,7 +44,7 @@ function Review() {
             pauseOnHover: false
         }
     }
-   
+
 
     return (
         <section className="reviews">
@@ -87,14 +91,14 @@ function Review() {
                 </div>
             </div>
 
-            <div className="slider__btns">
+            {/* <div className="slider__btns">
                 <MyPrevArrow body={ {
                     img: prev
                 } } />
                 <MyNextArrow body={ {
                     img: next
                 } } />
-            </div>
+            </div> */}
         </section>
     )
 }
