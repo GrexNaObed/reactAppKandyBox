@@ -1,6 +1,5 @@
 // eslint-disable-next-line
 import React, { useEffect, useState } from 'react'
-import {  } from "react-pring";
 import { Route, Switch, Redirect } from "react-router-dom";
 
 import { ProductP, Home, Catalag, MapStreet } from "../../pages/index";
