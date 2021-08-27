@@ -10,21 +10,37 @@ import next from '../img/next.svg'
 import MyNextArrow from '../components/UI/Buttons/MyNextArrow'
 
 function Review() {
-    const settingsSlider = {
-        infinite: true,
-        autoplay: true,
-        adaptiveHeight: true,
-        autoplaySpeed: 3500,
-        speed: 1000,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        centerMode: true,
-
-        centerPadding: '20%',
-        arrows: false,
-        pauseOnFocus: false,
-        pauseOnHover: false
+    var settingsSlider = {}
+    if (window.outerWidth >= 1025) {
+        settingsSlider = {
+            infinite: true,
+            autoplay: true,
+            adaptiveHeight: true,
+            autoplaySpeed: 3500,
+            speed: 1000,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            centerMode: true,
+            centerPadding: '20%',
+            arrows: false,
+            pauseOnFocus: false,
+            pauseOnHover: false
+        }
+    }else{
+        settingsSlider = {
+            infinite: true,
+            autoplay: true,
+            adaptiveHeight: true,
+            autoplaySpeed: 3500,
+            speed: 1000,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            pauseOnFocus: false,
+            pauseOnHover: false
+        }
     }
+   
 
     return (
         <section className="reviews">
