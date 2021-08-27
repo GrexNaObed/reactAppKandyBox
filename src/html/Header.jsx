@@ -18,7 +18,7 @@ function Header() {
                             <p className="header__screen-text">Приготовим за 3 часа в день заказа.
                                 Доставка на авто в холодильнике.</p>
                             <div className="header__screen-btn">
-                                <Link to='/catalog'>
+                                <Link  to='/catalog'>
                                     <MyButton body={ { className: 'header__screen-button', classNameSecond: 'btn', text: 'Перейти в каталог' } } />
                                 </Link>
 
